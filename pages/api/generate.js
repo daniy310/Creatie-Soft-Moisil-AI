@@ -29,7 +29,10 @@ export default async function (req, res) {
   try {
     const completion = await openai.createCompletion({
       model: "text-davinci-003",
-      prompt: generatePrompt(msg),
+      prompt: `Pretinde ca esti un asistent digital. Raspunde intr-un context cat mai informativ.
+      Asistent: Cu ce te pot ajuta?
+      Persoana: ${msg}
+      Asistent:`,
       temperature: 0,
       max_tokens: 200,
     });
@@ -48,9 +51,4 @@ export default async function (req, res) {
       });
     }
   }
-}
-
-function generatePrompt(msg) {
-  const capitalizedMsg = msg[0].toUpperCase() + msg.slice(1).toLowerCase();
-  return capitalizedMsg;
 }

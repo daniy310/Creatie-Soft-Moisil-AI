@@ -1,10 +1,10 @@
 import Head from "next/head";
-import { useState } from "react";
+import { useState, ReactDOM } from "react";
 import styles from "./index.module.css";
 
 export default function Home() {
   const [msgInput, setMsgInput] = useState("");
-  const [result, setResult] = useState();
+  const [buttonDisabled, setButtonDisabled] = useState(false);
 
   async function onSubmit(event) {
     event.preventDefault();
@@ -25,8 +25,10 @@ export default function Home() {
         );
       }
 
-      setResult(data.result);
+      // setResult(data.result);
+      showMessage(data.result, "ai");
       setMsgInput("");
+      setButtonDisabled(false);
     } catch (error) {
       // Consider implementing your own error handling logic here
       console.error(error);
@@ -34,27 +36,73 @@ export default function Home() {
     }
   }
 
+  function showMessage(text, sender) {
+    const li = document.createElement("li")
+
+
+    const img = document.createElement("img")
+    li.appendChild(img)
+    if (sender == "ai") {
+      img.src = "/robot.png"
+      li.classList.add(`${styles.ai}`)
+    } else {
+      img.src = "/user.png"
+    }
+    img.classList.add(`${styles.icon}`)
+
+    li.appendChild(document.createTextNode(text))
+    li.classList.add(`${styles.message}`)
+
+
+    const ul = document.getElementById("messageHistory")
+    ul.appendChild(li)
+  }
+
+  <li>
+    <img src="/robot.png" className={styles.icon} />
+    <p>text</p>
+  </li>
+
   return (
     <div>
       <Head>
-        <title>OpenAI Quickstart</title>
+        <title>Creatie Soft 2023</title>
         <link rel="icon" href="/robot.png" />
       </Head>
 
       <main className={styles.main}>
+        {/* <div className={styles.starter + (starterVisibility == false ? ` ${styles.hidden}` : '')}> */}
         <img src="/robot.png" className={styles.icon} />
-        <h3>Enter a prompt</h3>
-        <form onSubmit={onSubmit}>
+        <h3>Moisil-Bot</h3>
+        <form onSubmit={(event) => {
+          onSubmit(event)
+          if (msgInput != '') {
+            showMessage(msgInput, "user");
+            setButtonDisabled(true);
+          }
+          // setStarterVisibility(styles.starter_hidden)
+        }}>
           <input
+            className={buttonDisabled ? styles.disabledBorder : ''}
             type="text"
             name="msg"
-            placeholder="Enter a prompt"
+            placeholder="Introduceți o cerință"
+            autoComplete="off"
+            autoCapitalize="sentences"
             value={msgInput}
             onChange={(e) => setMsgInput(e.target.value)}
           />
-          <input type="submit" value="Generate names" />
+          <input type="submit" value="Trimite" disabled={buttonDisabled} className={buttonDisabled ? styles.disabled : ''} />
         </form>
-        <div className={styles.result}>{result}</div>
+        <ul className={styles.messageHistory} id="messageHistory"></ul>
+
+        {/* </div> */}
+        {/* <div className={styles.history + (historyVisibility == false ? ` ${styles.hidden}` : '')}>
+
+        </div>
+        <div className={styles.messageInput + (messageInputVisiblity == false ? ` ${styles.hidden}` : '')}>
+
+        </div> */}
       </main>
     </div>
   );
