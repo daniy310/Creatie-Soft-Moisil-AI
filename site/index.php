@@ -4,13 +4,13 @@
       <?php include('includes/navbarin.php'); ?>
       <div class="page-header min-vh-75 relative row text-center" style="background-image: url('includes/images/scoala.jpg');">
             <div class="d-flex justify-content-center align-items-center ">     
-                  <h1 class="text-center h1-index">Hello ! How can we help you today ?</h1>
+                  <h1 class="text-center h1-index">Hello! Moisil BOT here!</h1>
             </div>
       </div>
 
       <div class="container my-4" id="about">
             <br><br><br><br>
-            <h2 class="hello mb-2 text-center"><b>Lezgo Moisil</b></h2><br><br>
+            <h2 class="hello mb-2 text-center"><b>Moisil BOT</b></h2><br><br>
             <div class="container">
                   <div class="row align-items-center">
                         <div class="col-lg-4 me-auto mb-5 ">
@@ -19,9 +19,9 @@
                               </div>
                         </div>
                         <div class="col-lg-7">
-                              <h2 style="font-weight: bold">What is Lezgo Moisil??</h2><br>
-                              <p class="phack">Moisil e viata si viata e Bucur</p>
-                              <p class="phack">Toti pentru unu si Bucur pentru toti!</p>
+                              <h2 style="font-weight: bold">What is Moisil BOT??</h2><br>
+                              <p class="phack">Moisil BOT is a virtual assistant that helps you to find out information about the "Grigore Moisil" College.</p>
+                              <p class="phack">You have to try it!</p>
                         </div>
                   </div>
             </div>
