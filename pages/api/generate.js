@@ -28,13 +28,13 @@ export default async function (req, res) {
 
   try {
     const completion = await openai.createCompletion({
-      model: "text-davinci-003",
-      prompt: `Pretinde ca esti un asistent digital. Raspunde intr-un context cat mai informativ.
-      Asistent: Cu ce te pot ajuta?
-      Persoana: ${msg}
-      Asistent:`,
-      temperature: 0,
-      max_tokens: 200,
+      model: "davinci:ft--2023-01-26-13-12-31",
+      // prompt: `Pretinde ca esti un asistent digital. Raspunde intr-un context cat mai informativ.
+      // Asistent: Cu ce te pot ajuta?
+      // Persoana: ${msg}
+      // Asistent:`,
+      prompt: `${msg} ->`,
+      max_tokens: 50,
     });
     res.status(200).json({ result: completion.data.choices[0].text });
   } catch (error) {

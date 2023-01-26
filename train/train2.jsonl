@@ -10,134 +10,17 @@
 
 {"prompt": "Câți elevi are colegiul?", "completion": "În colegiu se află 711 elevi înscriși."}
 
-{"prompt": "Câți profesori are colegiul?", "completion": "În colegiu se află 51 de profesori."}
-
-{"prompt": "Câte clase sunt disponibile anual?", "completion": "Anual sunt disponibile 5 clase (4 de mate-info intesiv informatică și una de mate-info intensiv engleză)"}
-
-{"prompt": "Care este orarul clasei 11B în ziua de luni?", "completion": "Chimie, Ed. Fizică, Matematică, Informatică, Religie, Română"}
-
-{"prompt": "Care este orarul clasei 11B în ziua de marți?", "completion": "Engleză, Fizică, Informatică, Germană/Franceză, Economie, Matematică"}
-
-{"prompt": "Care este orarul clasei 11B în ziua de miercuri?", "completion": "Română, Informatică, Informatică, Engleză, Fizică, Geografie"}
-
-{"prompt": "Care este orarul clasei 11B în ziua de joi?", "completion": "Biologie, Română, Matematică, Informatică, Informatică, Informatică"}
-
-{"prompt": "Care este orarul clasei 11B în ziua de vineri?", "completion": "Matematică, Română, Germană/Franceză, Istorie, Fizică"}
-
-{"prompt": "Care este orarul în ziua de luni al clasei 11B?", "completion": "Chimie, Ed. Fizică, Matematică, Informatică, Religie, Română"}
-
-{"prompt": "Care este orarul în ziua de marți al clasei 11B?", "completion": "Engleză, Fizică, Informatică, Germană/Franceză, Economie, Matematică"}
-
-{"prompt": "Care este orarul în ziua de miercuri al clasei 11B?", "completion": "Română, Informatică, Informatică, Engleză, Fizică, Geografie"}
-
-{"prompt": "Care este orarul în ziua de joi al clasei 11B?", "completion": "Biologie, Română, Matematică, Informatică, Informatică, Informatică"}
-
-{"prompt": "Care este orarul în ziua de vineri al clasei 11B?", "completion": "Matematică, Română, Germană/Franceză, Istorie, Fizică"}
-
-{"prompt": "Ce ore are clasa 11B în ziua de luni?", "completion": "Chimie, Ed. Fizică, Matematică, Informatică, Religie, Română"}
-
-{"prompt": "Ce ore are clasa 11B în ziua de marti?", "completion": "Engleză, Fizică, Informatică, Germană/Franceză, Economie, Matematică"}
-
-{"prompt": "Ce ore are clasa 11B în ziua de miercuri?", "completion": "Română, Informatică, Informatică, Engleză, Fizică, Geografie"}
-
-{"prompt": "Ce ore are clasa 11B în ziua de joi?", "completion": "Biologie, Română, Matematică, Informatică, Informatică, Informatică"}
-
-{"prompt": "Ce ore are clasa 11B în ziua de vineri?", "completion": "Matematică, Română, Germană/Franceză, Istorie, Fizică"}
-
-{"prompt": "Cine este directorul colegiului?", "completion": "Directorul colegiului este Andrei Carmen."}
-
-{"prompt": "Cine este directoarea colegiului?", "completion": "Directoarea colegiului este Andrei Carmen."}
-
-{"prompt": "Cine este doamna director?", "completion": "Doamna director este Andrei Carmen."}
-
-{"prompt": "Cine este Andrei Carmen?", "completion": "Andrei Carmen este directoarea colegiului."}
-
-{"prompt": "Cine este doamna Andrei Carmen?", "completion": "Andrei Carmen este directoarea colegiului."}
-
-{"prompt": "Cine este directorul adjunct al colegiului?", "completion": "Directorul adjunct este Trandabur Alexandra."}
-
-{"prompt": "Cine este directoarea adjuncta a colegiului?", "completion": "Directoarea adjuncta a colegiului este Alexandra Trandabur."}
-
-{"prompt": "Cine este directoarea adjuncta a liceului?", "completion": "Directoarea adjuncta a colegiului este Alexandra Trandabur."}
-
-{"prompt": "Cine este doamna adjuncta?", "completion": "Doamna director adjuncta este Alexandra Trandabur."}
-
-{"prompt": "Cine este Alexandra Trandabur?", "completion": "Alexandra Trandabur este directoarea adjuncta a colegiului."}
-
-{"prompt": "Cine este doamna Alexandra Trandabur?", "completion": "Alexandra Trandabur este directoarea adjuncta a colegiului."}
-
-{"prompt": "Care este adresa de email a colegiului?", "completion": "cni@moisilbrasov.ro"}
-
-{"prompt": "Care este email-ul colegiului?", "completion": "cni@moisilbrasov.ro"}
-
-{"prompt": "Care este email-ul liceului?", "completion": "cni@moisilbrasov.ro"}
-
-{"prompt": "Care este adresa de mail a colegiului?", "completion": "cni@moisilbrasov.ro"}
-
-{"prompt": "Care este numărul de contact al colegiului?", "completion": "+40 268 331 480"}
-
-{"prompt": "Care este numărul de telefon al colegiului?", "completion": "+40 268 331 480"}
-
-{"prompt": "Care este numărul de WhatsApp al colegiului?", "completion": "+40 268 331 480"}
-
-{"prompt": "Unde pot gasi numărul de contact al colegiului?", "completion": "+40 268 331 480"}
-
-{"prompt": "Care a fost ultima medie de admitere în 2021?", "completion": "Utima medie de admitere a fost 9,01"}
-
-{"prompt": "Care a fost cea mai mica medie de admitere în 2021?", "completion": "Utima medie de admitere a fost 9,01"}
-
-{"prompt": "Care este media de admitere?", "completion": "Utima medie de admitere a fost 9,01"}
-
-{"prompt": "Cu ce nota se intra la Moisil?", "completion": "Utima medie de admitere a fost 9,01"}
-
-{"prompt": "Cu ce medie se intra la Moisil?", "completion": "Utima medie de admitere a fost 9,01"}
-
-{"prompt": "Câte locuri sunt disponibile pentru înscreierea în clasa a 5-a?", "completion": "Sunt disponibile 26 de locuri."}
-
-{"prompt": "Câte locuri sunt libere pentru înscreierea în clasa a 5-a?", "completion": "Sunt disponibile 26 de locuri."}
-
-{"prompt": "Câti elevi se pot înscrie în clasa a 5-a?", "completion": "Sunt disponibile 26 de locuri."}
-
-{"prompt": "Care este a doua limbă străină care se studiază în colegiu?", "completion": "A doua limbă care se studiază este germana sau franceza."}
-
-{"prompt": "Ce limbi se studiază la Moisil?", "completion": "A doua limbă care se studiază este germana sau franceza."}
-
-{"prompt": "Ce limbi străine se studiază la Moisil?", "completion": "A doua limbă care se studiază este germana sau franceza."}
-
-{"prompt": "Care este rata de promovabilitate la examenul de Bacalaureat a elevilor din colegiu?", "completion": "Promovabilitatea este de 99,37%."}
-
-{"prompt": "Ce procent de elevi trece examenul de Bacalaureat?", "completion": "Promovabilitatea este de 99,37%."}
-
-{"prompt": "Cati elevi trec examenul de Bacalaureat?", "completion": "Promovabilitatea este de 99,37%."}
-
-{"prompt": "Câte calculatoare deține colegiul?", "completion": "Colegiul deține 150 de calculatoare."}
-
-{"prompt": "Câte unitati deține colegiul?", "completion": "Colegiul deține 150 de calculatoare."}
-
-{"prompt": "Câte desktop-uri deține colegiul?", "completion": "Colegiul deține 150 de calculatoare."}
-
-{"prompt": "Unde se află Colegiul Național de Informatică Grigore Moisil", "completion": "Brașov, Calea București 75"}
-
-{"prompt": "Când este ziua colegiului?", "completion": "Ziua colegiului este pe 30 ianuarie."}
-
-{"prompt": "Când serbam ziua colegiului?", "completion": "Ziua colegiului este pe 30 ianuarie."}
-
-{"prompt": "Ce sărbătorim pe 30 ianuarie?", "completion": "Pe 30 ianuarie serbăm Ziua Colegiului"}
-
-{"prompt": "Ce este pe 30 ianuarie?", "completion": "Pe 30 ianuarie serbăm Ziua Colegiului"}
-{"prompt": "Cine a fost Grigore Moisil?", "completion": "Grigore Constantin Moisil a fost un matematician român, considerat părintele informaticii românești în urma inventării circuitelor electronice tristabile, și datorită contribuțiilor sale în pregătirea profesională a primilor informaticieni din România."}
-
-{"prompt": "Care este adresa liceului?", "completion": "Liceul se află pe Calea București 75, Brașov."}
-
-{"prompt": "Unde este intrarea elevilor?", "completion": "Accesul elevilor în incinta școlii se face pe la intrarea de pe strada Lunii."}
-
-{"prompt": "Câte profiluri are liceul?", "completion": "Liceul are un singur profil, mate-info."}
-
-{"prompt": "Unde se află cancelaria profesorilor?", "completion": "Cancelaria se află în corpul B, la parter, lângă scara profesorilor."}
+{"prompt": "Câți elevi sunt înscriși în colegiu?", "completion": "În colegiu se află 711 elevi înscriși."}
 
 {"prompt": "Câți elevi are colegiul?", "completion": "În colegiu se află 711 elevi înscriși."}
 
+{"prompt": "Câți elevi studiază în acest colegiul?", "completion": "În colegiu se află 711 elevi înscriși."}
+
+{"prompt": "Câți elevi învață în acest colegiu?", "completion": "În colegiu se află 711 elevi înscriși."}
+
 {"prompt": "Câți profesori are colegiul?", "completion": "În colegiu se află 51 de profesori."}
+
+{"prompt": "Câți profesori predau în acest colegiu?", "completion": "În colegiu se află 51 de profesori."}
 
 {"prompt": "Câte clase sunt disponibile anual?", "completion": "Anual sunt disponibile 5 clase (4 de mate-info intesiv informatică și una de mate-info intensiv engleză)"}
 
@@ -171,6 +54,26 @@
 
 {"prompt": "Ce ore are clasa 11B în ziua de vineri?", "completion": "Matematică, Română, Germană/Franceză, Istorie, Fizică"}
 
+{"prompt": "Ce ore are 11B luni?", "completion": "Chimie, Ed. Fizică, Matematică, Informatică, Religie, Română"}
+
+{"prompt": "Ce ore are 11B marti?", "completion": "Engleză, Fizică, Informatică, Germană/Franceză, Economie, Matematică"}
+
+{"prompt": "Ce ore are 11B miercuri?", "completion": "Română, Informatică, Informatică, Engleză, Fizică, Geografie"}
+
+{"prompt": "Ce ore 11B joi?", "completion": "Biologie, Română, Matematică, Informatică, Informatică, Informatică"}
+
+{"prompt": "Ce ore 11B vineri?", "completion": "Matematică, Română, Germană/Franceză, Istorie, Fizică"}
+
+{"prompt": "Chimie, Ed. Fizică, Matematică, Informatică, Religie, Română", "completion": "Acesta este orarul clasei 11B luni."}
+
+{"prompt": "Engleză, Fizică, Informatică, Germană/Franceză, Economie, Matematică", "completion": "Acesta este orarul clasei 11B marti."}
+
+{"prompt": "Română, Informatică, Informatică, Engleză, Fizică, Geografie", "completion": "Acesta este orarul clasei 11B miercuri."}
+
+{"prompt": "Biologie, Română, Matematică, Informatică, Informatică, Informatică", "completion": "Acesta este orarul clasei 11B joi."}
+
+{"prompt": "Matematică, Română, Germană/Franceză, Istorie, Fizică", "completion": "Acesta este orarul clasei 11B vineri."}
+
 {"prompt": "Cine este directorul colegiului?", "completion": "Directorul colegiului este Andrei Carmen."}
 
 {"prompt": "Cine este directoarea colegiului?", "completion": "Directoarea colegiului este Andrei Carmen."}
@@ -178,6 +81,8 @@
 {"prompt": "Cine este doamna director?", "completion": "Doamna director este Andrei Carmen."}
 
 {"prompt": "Cine este Andrei Carmen?", "completion": "Andrei Carmen este directoarea colegiului."}
+
+{"prompt": "Andrei Carmen", "completion": "Andrei Carmen este directoarea colegiului."}
 
 {"prompt": "Cine este doamna Andrei Carmen?", "completion": "Andrei Carmen este directoarea colegiului."}
 
@@ -193,6 +98,8 @@
 
 {"prompt": "Cine este doamna Alexandra Trandabur?", "completion": "Alexandra Trandabur este directoarea adjuncta a colegiului."}
 
+{"prompt": "Alexandra Trandabur", "completion": "Alexandra Trandabur este directoarea adjuncta a colegiului."}
+
 {"prompt": "Care este adresa de email a colegiului?", "completion": "cni@moisilbrasov.ro"}
 
 {"prompt": "Care este email-ul colegiului?", "completion": "cni@moisilbrasov.ro"}
@@ -201,6 +108,12 @@
 
 {"prompt": "Care este adresa de mail a colegiului?", "completion": "cni@moisilbrasov.ro"}
 
+{"prompt": "cni@moisilbrasov.ro", "completion": "Aceasta este adresa de mail a colegiului."}
+
+{"prompt": "A cui este adresa cni@moisilbrasov.ro", "completion": "Aceasta este adresa de mail a colegiului."}
+
+{"prompt": "Ce adresa de mail este cni@moisilbrasov.ro", "completion": "Aceasta este adresa de mail a colegiului."}
+
 {"prompt": "Care este numărul de contact al colegiului?", "completion": "+40 268 331 480"}
 
 {"prompt": "Care este numărul de telefon al colegiului?", "completion": "+40 268 331 480"}
@@ -208,6 +121,12 @@
 {"prompt": "Care este numărul de WhatsApp al colegiului?", "completion": "+40 268 331 480"}
 
 {"prompt": "Unde pot gasi numărul de contact al colegiului?", "completion": "+40 268 331 480"}
+
+{"prompt": "Ce numar este +40 268 331 480 ?", "completion": "Acesta este numarul de telefon al colegiului."}
+
+{"prompt": "Al cui este numarul +40 268 331 480 ?", "completion": "Acesta este numarul de telefon al colegiului."}
+
+{"prompt": "+40 268 331 480", "completion": "Acesta este numarul de telefon al colegiului."}
 
 {"prompt": "Care a fost ultima medie de admitere în 2021?", "completion": "Utima medie de admitere a fost 9,01"}
 
@@ -237,132 +156,11 @@
 
 {"prompt": "Cati elevi trec examenul de Bacalaureat?", "completion": "Promovabilitatea este de 99,37%."}
 
-{"prompt": "Câte calculatoare deține colegiul?", "completion": "Colegiul deține 150 de calculatoare."}
+{"prompt": "Cati elevi trec examenul de bac?", "completion": "Promovabilitatea este de 99,37%."}
 
-{"prompt": "Câte unitati deține colegiul?", "completion": "Colegiul deține 150 de calculatoare."}
+{"prompt": "Cati elevi trec bacul?", "completion": "Promovabilitatea este de 99,37%."}
 
-{"prompt": "Câte desktop-uri deține colegiul?", "completion": "Colegiul deține 150 de calculatoare."}
-
-{"prompt": "Unde se află Colegiul Național de Informatică Grigore Moisil", "completion": "Brașov, Calea București 75"}
-
-{"prompt": "Când este ziua colegiului?", "completion": "Ziua colegiului este pe 30 ianuarie."}
-
-{"prompt": "Când serbam ziua colegiului?", "completion": "Ziua colegiului este pe 30 ianuarie."}
-
-{"prompt": "Ce sărbătorim pe 30 ianuarie?", "completion": "Pe 30 ianuarie serbăm Ziua Colegiului"}
-
-{"prompt": "Ce este pe 30 ianuarie?", "completion": "Pe 30 ianuarie serbăm Ziua Colegiului"}
-{"prompt": "Cine a fost Grigore Moisil?", "completion": "Grigore Constantin Moisil a fost un matematician român, considerat părintele informaticii românești în urma inventării circuitelor electronice tristabile, și datorită contribuțiilor sale în pregătirea profesională a primilor informaticieni din România."}
-
-{"prompt": "Care este adresa liceului?", "completion": "Liceul se află pe Calea București 75, Brașov."}
-
-{"prompt": "Unde este intrarea elevilor?", "completion": "Accesul elevilor în incinta școlii se face pe la intrarea de pe strada Lunii."}
-
-{"prompt": "Câte profiluri are liceul?", "completion": "Liceul are un singur profil, mate-info."}
-
-{"prompt": "Unde se află cancelaria profesorilor?", "completion": "Cancelaria se află în corpul B, la parter, lângă scara profesorilor."}
-
-{"prompt": "Câți elevi are colegiul?", "completion": "În colegiu se află 711 elevi înscriși."}
-
-{"prompt": "Câți profesori are colegiul?", "completion": "În colegiu se află 51 de profesori."}
-
-{"prompt": "Câte clase sunt disponibile anual?", "completion": "Anual sunt disponibile 5 clase (4 de mate-info intesiv informatică și una de mate-info intensiv engleză)"}
-
-{"prompt": "Care este orarul clasei 11B în ziua de luni?", "completion": "Chimie, Ed. Fizică, Matematică, Informatică, Religie, Română"}
-
-{"prompt": "Care este orarul clasei 11B în ziua de marți?", "completion": "Engleză, Fizică, Informatică, Germană/Franceză, Economie, Matematică"}
-
-{"prompt": "Care este orarul clasei 11B în ziua de miercuri?", "completion": "Română, Informatică, Informatică, Engleză, Fizică, Geografie"}
-
-{"prompt": "Care este orarul clasei 11B în ziua de joi?", "completion": "Biologie, Română, Matematică, Informatică, Informatică, Informatică"}
-
-{"prompt": "Care este orarul clasei 11B în ziua de vineri?", "completion": "Matematică, Română, Germană/Franceză, Istorie, Fizică"}
-
-{"prompt": "Care este orarul în ziua de luni al clasei 11B?", "completion": "Chimie, Ed. Fizică, Matematică, Informatică, Religie, Română"}
-
-{"prompt": "Care este orarul în ziua de marți al clasei 11B?", "completion": "Engleză, Fizică, Informatică, Germană/Franceză, Economie, Matematică"}
-
-{"prompt": "Care este orarul în ziua de miercuri al clasei 11B?", "completion": "Română, Informatică, Informatică, Engleză, Fizică, Geografie"}
-
-{"prompt": "Care este orarul în ziua de joi al clasei 11B?", "completion": "Biologie, Română, Matematică, Informatică, Informatică, Informatică"}
-
-{"prompt": "Care este orarul în ziua de vineri al clasei 11B?", "completion": "Matematică, Română, Germană/Franceză, Istorie, Fizică"}
-
-{"prompt": "Ce ore are clasa 11B în ziua de luni?", "completion": "Chimie, Ed. Fizică, Matematică, Informatică, Religie, Română"}
-
-{"prompt": "Ce ore are clasa 11B în ziua de marti?", "completion": "Engleză, Fizică, Informatică, Germană/Franceză, Economie, Matematică"}
-
-{"prompt": "Ce ore are clasa 11B în ziua de miercuri?", "completion": "Română, Informatică, Informatică, Engleză, Fizică, Geografie"}
-
-{"prompt": "Ce ore are clasa 11B în ziua de joi?", "completion": "Biologie, Română, Matematică, Informatică, Informatică, Informatică"}
-
-{"prompt": "Ce ore are clasa 11B în ziua de vineri?", "completion": "Matematică, Română, Germană/Franceză, Istorie, Fizică"}
-
-{"prompt": "Cine este directorul colegiului?", "completion": "Directorul colegiului este Andrei Carmen."}
-
-{"prompt": "Cine este directoarea colegiului?", "completion": "Directoarea colegiului este Andrei Carmen."}
-
-{"prompt": "Cine este doamna director?", "completion": "Doamna director este Andrei Carmen."}
-
-{"prompt": "Cine este Andrei Carmen?", "completion": "Andrei Carmen este directoarea colegiului."}
-
-{"prompt": "Cine este doamna Andrei Carmen?", "completion": "Andrei Carmen este directoarea colegiului."}
-
-{"prompt": "Cine este directorul adjunct al colegiului?", "completion": "Directorul adjunct este Trandabur Alexandra."}
-
-{"prompt": "Cine este directoarea adjuncta a colegiului?", "completion": "Directoarea adjuncta a colegiului este Alexandra Trandabur."}
-
-{"prompt": "Cine este directoarea adjuncta a liceului?", "completion": "Directoarea adjuncta a colegiului este Alexandra Trandabur."}
-
-{"prompt": "Cine este doamna adjuncta?", "completion": "Doamna director adjuncta este Alexandra Trandabur."}
-
-{"prompt": "Cine este Alexandra Trandabur?", "completion": "Alexandra Trandabur este directoarea adjuncta a colegiului."}
-
-{"prompt": "Cine este doamna Alexandra Trandabur?", "completion": "Alexandra Trandabur este directoarea adjuncta a colegiului."}
-
-{"prompt": "Care este adresa de email a colegiului?", "completion": "cni@moisilbrasov.ro"}
-
-{"prompt": "Care este email-ul colegiului?", "completion": "cni@moisilbrasov.ro"}
-
-{"prompt": "Care este email-ul liceului?", "completion": "cni@moisilbrasov.ro"}
-
-{"prompt": "Care este adresa de mail a colegiului?", "completion": "cni@moisilbrasov.ro"}
-
-{"prompt": "Care este numărul de contact al colegiului?", "completion": "+40 268 331 480"}
-
-{"prompt": "Care este numărul de telefon al colegiului?", "completion": "+40 268 331 480"}
-
-{"prompt": "Care este numărul de WhatsApp al colegiului?", "completion": "+40 268 331 480"}
-
-{"prompt": "Unde pot gasi numărul de contact al colegiului?", "completion": "+40 268 331 480"}
-
-{"prompt": "Care a fost ultima medie de admitere în 2021?", "completion": "Utima medie de admitere a fost 9,01"}
-
-{"prompt": "Care a fost cea mai mica medie de admitere în 2021?", "completion": "Utima medie de admitere a fost 9,01"}
-
-{"prompt": "Care este media de admitere?", "completion": "Utima medie de admitere a fost 9,01"}
-
-{"prompt": "Cu ce nota se intra la Moisil?", "completion": "Utima medie de admitere a fost 9,01"}
-
-{"prompt": "Cu ce medie se intra la Moisil?", "completion": "Utima medie de admitere a fost 9,01"}
-
-{"prompt": "Câte locuri sunt disponibile pentru înscreierea în clasa a 5-a?", "completion": "Sunt disponibile 26 de locuri."}
-
-{"prompt": "Câte locuri sunt libere pentru înscreierea în clasa a 5-a?", "completion": "Sunt disponibile 26 de locuri."}
-
-{"prompt": "Câti elevi se pot înscrie în clasa a 5-a?", "completion": "Sunt disponibile 26 de locuri."}
-
-{"prompt": "Care este a doua limbă străină care se studiază în colegiu?", "completion": "A doua limbă care se studiază este germana sau franceza."}
-
-{"prompt": "Ce limbi se studiază la Moisil?", "completion": "A doua limbă care se studiază este germana sau franceza."}
-
-{"prompt": "Ce limbi străine se studiază la Moisil?", "completion": "A doua limbă care se studiază este germana sau franceza."}
-
-{"prompt": "Care este rata de promovabilitate la examenul de Bacalaureat a elevilor din colegiu?", "completion": "Promovabilitatea este de 99,37%."}
-
-{"prompt": "Ce procent de elevi trece examenul de Bacalaureat?", "completion": "Promovabilitatea este de 99,37%."}
-
-{"prompt": "Cati elevi trec examenul de Bacalaureat?", "completion": "Promovabilitatea este de 99,37%."}
+{"prompt": "Cati elevi iau bacul?", "completion": "Promovabilitatea este de 99,37%."}
 
 {"prompt": "Câte calculatoare deține colegiul?", "completion": "Colegiul deține 150 de calculatoare."}
 
@@ -372,6 +170,10 @@
 
 {"prompt": "Unde se află Colegiul Național de Informatică Grigore Moisil", "completion": "Brașov, Calea București 75"}
 
+{"prompt": "Care este adresa colegiului?", "completion": "Brașov, Calea București 75"}
+
+{"prompt": "Cum pot ajunge la Colegiul Național de Informatică Grigore Moisil", "completion": "Brașov, Calea București 75"}
+
 {"prompt": "Când este ziua colegiului?", "completion": "Ziua colegiului este pe 30 ianuarie."}
 
 {"prompt": "Când serbam ziua colegiului?", "completion": "Ziua colegiului este pe 30 ianuarie."}
@@ -379,3 +181,15 @@
 {"prompt": "Ce sărbătorim pe 30 ianuarie?", "completion": "Pe 30 ianuarie serbăm Ziua Colegiului"}
 
 {"prompt": "Ce este pe 30 ianuarie?", "completion": "Pe 30 ianuarie serbăm Ziua Colegiului"}
+
+{"prompt": "Cum te cheama?", "completion": "Numele meu este Moisil BOT și am fost creat de Șelaru Daniel, Mălai Darius și Bucur Alexandru :)"}
+
+{"prompt": "Cine esti?", "completion": "Numele meu este Moisil BOT și am fost creat de Șelaru Daniel, Mălai Darius și Bucur Alexandru :)"}
+
+{"prompt": "Cum te numesti?", "completion": "Numele meu este Moisil BOT și am fost creat de Șelaru Daniel, Mălai Darius și Bucur Alexandru :)"}
+
+{"prompt": "Ce este Moisil BOT?", "completion": "Numele meu este Moisil BOT și am fost creat de Șelaru Daniel, Mălai Darius și Bucur Alexandru :)"}
+
+{"prompt": "Ce esti?", "completion": "Numele meu este Moisil BOT și am fost creat de Șelaru Daniel, Mălai Darius și Bucur Alexandru :)"}
+
+{"prompt": "Cine este Moisil BOT?", "completion": "Numele meu este Moisil BOT și am fost creat de Șelaru Daniel, Mălai Darius și Bucur Alexandru :)"}

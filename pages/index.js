@@ -25,43 +25,39 @@ export default function Home() {
         );
       }
 
-      // setResult(data.result);
       showMessage(data.result, "ai");
       setMsgInput("");
       setButtonDisabled(false);
     } catch (error) {
-      // Consider implementing your own error handling logic here
       console.error(error);
       alert(error.message);
     }
   }
 
   function showMessage(text, sender) {
-    const li = document.createElement("li")
+    const li = document.createElement("li");
 
-
-    const img = document.createElement("img")
-    li.appendChild(img)
+    const img = document.createElement("img");
+    li.appendChild(img);
     if (sender == "ai") {
-      img.src = "/robot.png"
-      li.classList.add(`${styles.ai}`)
+      img.src = "/robot.png";
+      li.classList.add(`${styles.ai}`);
     } else {
-      img.src = "/user.png"
+      img.src = "/user.png";
     }
-    img.classList.add(`${styles.icon}`)
+    img.classList.add(`${styles.icon}`);
 
-    li.appendChild(document.createTextNode(text))
-    li.classList.add(`${styles.message}`)
+    li.appendChild(document.createTextNode(text));
+    li.classList.add(`${styles.message}`);
 
-
-    const ul = document.getElementById("messageHistory")
-    ul.appendChild(li)
+    const ul = document.getElementById("messageHistory");
+    ul.appendChild(li);
   }
 
   <li>
     <img src="/robot.png" className={styles.icon} />
     <p>text</p>
-  </li>
+  </li>;
 
   return (
     <div>
@@ -71,19 +67,19 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        {/* <div className={styles.starter + (starterVisibility == false ? ` ${styles.hidden}` : '')}> */}
         <img src="/robot.png" className={styles.icon} />
         <h3>Moisil-Bot</h3>
-        <form onSubmit={(event) => {
-          onSubmit(event)
-          if (msgInput != '') {
-            showMessage(msgInput, "user");
-            setButtonDisabled(true);
-          }
-          // setStarterVisibility(styles.starter_hidden)
-        }}>
+        <form
+          onSubmit={(event) => {
+            onSubmit(event);
+            if (msgInput != "") {
+              showMessage(msgInput, "user");
+              setButtonDisabled(true);
+            }
+          }}
+        >
           <input
-            className={buttonDisabled ? styles.disabledBorder : ''}
+            className={buttonDisabled ? styles.disabledBorder : ""}
             type="text"
             name="msg"
             placeholder="Introduceți o cerință"
@@ -92,17 +88,14 @@ export default function Home() {
             value={msgInput}
             onChange={(e) => setMsgInput(e.target.value)}
           />
-          <input type="submit" value="Trimite" disabled={buttonDisabled} className={buttonDisabled ? styles.disabled : ''} />
+          <input
+            type="submit"
+            value="Trimite"
+            disabled={buttonDisabled}
+            className={buttonDisabled ? styles.disabled : ""}
+          />
         </form>
         <ul className={styles.messageHistory} id="messageHistory"></ul>
-
-        {/* </div> */}
-        {/* <div className={styles.history + (historyVisibility == false ? ` ${styles.hidden}` : '')}>
-
-        </div>
-        <div className={styles.messageInput + (messageInputVisiblity == false ? ` ${styles.hidden}` : '')}>
-
-        </div> */}
       </main>
     </div>
   );
