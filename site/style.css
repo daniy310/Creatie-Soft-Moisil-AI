@@ -1,0 +1,103 @@
+.logo {
+      margin-right: 1rem;
+      max-width: 5vw;
+      min-width: 35px;
+      width: 100%;
+      height: auto;
+  }
+  
+  .navbar-brand {
+      margin-left: 2rem;
+      align-items: center;
+      width: auto;
+  }
+  
+  .navbar {
+      background-color: rgb(16, 163, 127) !important;
+      align-items: center;
+      display: flex;
+  }
+  
+  .navbar-nav {
+      align-items: center;
+  }
+  
+  .color1 {
+      border-radius: 10px;
+  }
+  
+  .color1:hover {
+      background-color: #04ebec;
+      color: white;
+      border-radius: 10px;
+  }
+  
+  .signinbutton {
+      background-color:#10a37f !important;
+      color: white;
+      border-radius: 10px;
+  }
+  
+  .signin {
+      border-radius: 2rem;
+      backdrop-filter: blur(8px);
+      -webkit-backdrop-filter: blur(8px);
+  }
+  
+  .page-header {
+      padding: 0;
+      position: relative;
+      overflow: hidden;
+      align-items: center;
+      background-size: cover;
+      background-position: 50%;
+  }
+  
+  .min-vh-75 {
+      min-height: 35vmax !important;
+  }
+  
+  .bg-blue {
+      background-color: #04ebec !important;
+  }
+  
+  
+  .formHack {
+      margin-top: -10rem !important;
+      background-color: white;
+  }
+  
+  .h1-index {
+      color: white;
+      font-size: 55px !important;
+      font-weight: bold !important;
+      background-color: #10a37f!important;
+      border-radius: 10px;
+  }
+  
+  .h1-hack {
+      color: black;
+      font-size: 45px !important;
+      font-weight: bold !important;
+  }
+  
+  .phack {
+      font-size: 1.6rem;
+      font-weight: bold;
+  }
+  
+  .teammember {
+      font-size: 1.2rem;
+  }
+  
+  .teamemb {
+      background-color: rgba(33, 37, 41, 0.9);
+  }
+  .bottom{
+      position: absolute;
+      bottom: 0;
+  }
+
+  .bg-blues{
+    background-color: #10a37f;
+  }
