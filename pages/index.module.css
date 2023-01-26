@@ -48,11 +48,34 @@
 }
 
 .main input[type="text"] {
+  border: #10a37f;
+  -moz-transition: all 0.25s ease-in;
+  -o-transition: all 0.25s ease-in;
+  -webkit-transition: all 0.25s ease-in;
+  transition: all 0.25s ease-in;
+
   padding: 12px 16px;
   border: 1px solid #10a37f;
   border-radius: 4px;
   margin-bottom: 24px;
   outline-color: #10a37f;
+}
+
+.main .disabled {
+  background-color: #6b6b6b !important;
+  -moz-transition: all 0.25s ease-in;
+  -o-transition: all 0.25s ease-in;
+  -webkit-transition: all 0.25s ease-in;
+  transition: all 0.25s ease-in;
+}
+
+.main .disabledBorder {
+  outline-color: #6b6b6b !important;
+  border-color: #6b6b6b !important;
+  -moz-transition: all 0.25s ease-in;
+  -o-transition: all 0.25s ease-in;
+  -webkit-transition: all 0.25s ease-in;
+  transition: all 0.25s ease-in;
 }
 
 .main ::placeholder {

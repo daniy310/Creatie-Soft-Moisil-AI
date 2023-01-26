@@ -73,7 +73,7 @@ export default function Home() {
       <main className={styles.main}>
         {/* <div className={styles.starter + (starterVisibility == false ? ` ${styles.hidden}` : '')}> */}
         <img src="/robot.png" className={styles.icon} />
-        <h3>Introduceți o cerință</h3>
+        <h3>Moisil-Bot</h3>
         <form onSubmit={(event) => {
           onSubmit(event)
           if (msgInput != '') {
@@ -83,6 +83,7 @@ export default function Home() {
           // setStarterVisibility(styles.starter_hidden)
         }}>
           <input
+            className={buttonDisabled ? styles.disabledBorder : ''}
             type="text"
             name="msg"
             placeholder="Introduceți o cerință"
