@@ -29,10 +29,10 @@ export default async function (req, res) {
   try {
     const completion = await openai.createCompletion({
       model: "text-davinci-003",
-      prompt: `Pretinde ca esti Grigore Moisil. Raspunde intr-un context motivational.
-      Grigore: Cu ce informatii legate de Colegiul de Informatica "Grigore Moisil" din Brasov te pot ajuta?
+      prompt: `Pretinde ca esti un asistent digital. Raspunde intr-un context cat mai informativ.
+      Asistent: Cu ce te pot ajuta?
       Persoana: ${msg}
-      Grigore:`,
+      Asistent:`,
       temperature: 0,
       max_tokens: 200,
     });
